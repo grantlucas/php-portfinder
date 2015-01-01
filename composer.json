@@ -1,6 +1,6 @@
 {
     "name": "grantlucas/php-portfinder",
-    "description": "A simple tool to find an open port within a range.",
+    "description": "A simple tool to find an available port within a range.",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "GrantLucas\\PortFinder\\": "src/"
+            "GrantLucas\\": "src/"
         }
     }
 }
