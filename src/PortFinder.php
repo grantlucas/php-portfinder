@@ -29,7 +29,7 @@ class PortFinder
             $errno = null;
             $errstr = null;
 
-            $connection = fsockopen($host, $port, $errno, $errstr);
+            $connection = @fsockopen($host, $port, $errno, $errstr);
 
             if (is_resource($connection)) {
                 // Port is in use so close the connection and move on
