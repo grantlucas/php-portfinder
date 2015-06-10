@@ -2,6 +2,12 @@
 
 A simple PHP package to find an available port within a range.
 
+## Installation using [Composer](https://getcomposer.org/)
+
+```
+$ composer require grantlucas/php-portfinder
+```
+
 ## Usage
 
 The following will return the first available port within the range for the
